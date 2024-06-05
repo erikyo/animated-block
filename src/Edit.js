@@ -62,7 +62,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						value={ duration }
 						options={ durationsSet }
 						onChange={ ( newDuration ) => {
-							setAttributes( { animationDuration: newDuration } );
+							setAttributes( { duration: newDuration } );
 						} }
 					/>
 					<SelectControl
