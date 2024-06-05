@@ -10,6 +10,8 @@ With this repository, we'll create a Gutenberg block that uses the power of anim
 
 This README will guide you through the setup and usage of the Animation Extravaganza block.
 
+![animation](https://github.com/erikyo/animated-block/assets/8550908/ece86dca-20d7-4697-8c2a-60b55400776e)
+
 ## 🧾 Ingredients
 
 To concoct the Animation Extravaganza block, you'll need the following ingredients:
