@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "blocchi/animated-block",
+	"version": "0.1.0",
+	"title": "Animation block",
+	"category": "widgets",
+	"textdomain": "animated-block",
+	"attributes": {
+		"animation": {
+			"type": "string"
+		},
+		"duration": {
+			"type": "string"
+		},
+		"delay": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true,
+		"dimensions": {
+			"minHeight": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./index.css",
+	"viewScript": "file:./view.js"
+}
